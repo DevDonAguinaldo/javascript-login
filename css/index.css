@@ -18,7 +18,7 @@ html, body {
     margin: 20px 0 0 0;
 }
 
-#submit-btn, #signup-btn, #cancel-btn, #forgotpwlink {
+#login-submit-btn, #signup-submit-btn, #signup-btn, #cancel-btn, #forgotpwlink {
     margin-top: 10px;
 }
 
