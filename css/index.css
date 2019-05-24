@@ -1,0 +1,32 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+.input-field {
+    border: 0.5px solid black;
+    border-radius: 10px;
+    margin: 20px 0 0 0;
+    padding: 20px;
+}
+
+.input-group {
+    padding-bottom: 20px;
+}
+
+#input-name {
+    margin: 20px 0 0 0;
+}
+
+#submit-btn, #signup-btn, #cancel-btn, #forgotpwlink {
+    margin-top: 10px;
+}
+
+#btns {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px;
+}
