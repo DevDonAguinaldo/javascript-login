@@ -21,7 +21,7 @@ check_email = (email) => {
 
 check_pw = (pw) => { 
     for (i of registered_accounts) {
-        if (pw === i._email) return true;
+        if (pw === i._pw) return true;
         else return false;
     }
 }
