@@ -2,7 +2,7 @@
 
 // global variables
 var email = document.getElementById('input-email');
-var pw = document.getElementById('input-pw');
+var login_pw = document.getElementById('input-pw');
 
 // verify name, email, and password functions
 check_name = (name) => { 
@@ -27,18 +27,12 @@ check_pw = (pw) => {
 }
 
 function login_submit() {
-    // check the email
+    // check email
     if (check_email(email.value) === true) {
         // check the password
-        if (check_pw(pw.value) === true)
-            alert("You have logged in successfully!");
-        else
-            alert("Error - Invalid password.");
+        if (check_pw(login_pw.value) === true) alert("Successfully logged in!");
+        else alert("Invalid password!");
     }
-    else
-        console.log("email not in database");
+    else alert("Invalid email address!");
 }
 
-function signup_submit() {
-
-}

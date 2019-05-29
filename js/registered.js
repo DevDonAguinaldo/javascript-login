@@ -1,9 +1,13 @@
 // file for registered account data
 
-let defaultAccount = new Account("John Doe", "johndoe01@gmail.com", "password123");
+let johnDoe = new Account("John Doe", "johndoe01@gmail.com", "password123");
+let janeDoe = new Account("Jane Doe", "janedoe@yahoo.com", "pw321");
 
 registered_accounts = [
-    defaultAccount,
+    johnDoe,
+    janeDoe,
 ];
 
-var show_registered_accounts = () => { registered_accounts.forEach(function(account) {console.log(account._name)}); };
+var show_registered_accounts = () => { registered_accounts.forEach(account => console.log(account._name)); };
+
+
