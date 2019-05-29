@@ -13,7 +13,6 @@ function signup_submit() {
         let newAcct = new Account(fullname, signup_email.value, signup_pw.value);
         registered_accounts.push(newAcct);
         alert("Successfully signed up!");
-        show_registered_accounts();
     }
    else 
         alert("Error - Password does not match!");
