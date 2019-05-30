@@ -27,12 +27,9 @@ check_pw = (pw) => {
 }
 
 function login_submit() {
-    // check email
     if (check_email(email.value) === true) {
-        // check the password
         if (check_pw(login_pw.value) === true) alert("Successfully logged in!");
         else alert("Invalid password!");
     }
     else alert("Invalid email address!");
 }
-

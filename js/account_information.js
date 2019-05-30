@@ -10,6 +10,6 @@ class Account {
     get email() { return _email; }
     get pw() { return _pw; }
     set name(newName) { this._name = newName; }
-    set email(newEmail) {this._email = newEmail; }
-    set pw(newPw) {this._pw = newPw; }
+    set email(newEmail) { this._email = newEmail; }
+    set pw(newPw) { this._pw = newPw; }
 }
